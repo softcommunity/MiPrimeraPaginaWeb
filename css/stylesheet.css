@@ -23,6 +23,27 @@ h4.frameworks_title{
   margin-top: 8%;
 }
 
+img.img_bill{
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img.img_mark{
+  width: 130px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img.img_steve{
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 span.fabIcon{
   margin-top: 10px;
 }
