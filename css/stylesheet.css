@@ -23,25 +23,20 @@ h4.frameworks_title{
   margin-top: 8%;
 }
 
-img.img_bill{
+h4.idolos_titulo{
+  text-align: center;
+}
+
+img.img_idolos{
   width: 150px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-img.img_mark{
-  width: 130px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-img.img_steve{
-  width: 200px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+#map{
+  height: 50%;
+  margin-top: 10%;
 }
 
 span.fabIcon{

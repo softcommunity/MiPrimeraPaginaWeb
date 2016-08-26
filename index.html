@@ -151,20 +151,33 @@
         <h4 class="frameworks_title">Mis Idolos</h4>
         <div class="col-md-4">
           <div class="well well-lg">
-            <img class="img-circle img_bill" src="images/bill_gates.jpeg" alt="bill" />
+            <img class="img-circle img_idolos" src="images/bill_gates.jpeg" alt="bill" />
+            <h4 class="idolos_titulo">Bill Gates</h4>
+            <p class="idolos_descripcion">
+              Es el creador de la compania Microsoft, ademas de ser el mas rico del mundo
+            </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="well well-lg">
-            <img class="img-circle img_steve" src="images/steve.jpg" alt="Steve" />
+            <img class="img-circle img_idolos" src="images/steve.jpg" alt="Steve" />
+            <h4 class="idolos_titulo">Steve Jobs</h4>
+            <p class="idolos_descripcion">
+              Fue uno de los cofundadores de la empresa Apple, y quien realizo diferentes aportes inovadores al mundo
+            </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="well well-lg">
-            <img class="img-circle img_mark" src="images/mark-zuckerberg.jpg" alt="Mark" />
+            <img class="img-circle img_idolos" src="images/mark-zuckerberg.jpg" alt="Mark" />
+            <h4 class="idolos_titulo">Mark Zuckerberg</h4>
+            <p class="idolos_descripcion">
+              A principios del milenio creo una red social que se convertiria en un medio de comunicacion mundial
+            </p>
           </div>
         </div>
       </div>
+      <div id="map"></div>
       <div class="fab">
           <a class="btn btn-danger btn-fab" data-toggle="modal" data-target="#myModal">
             <span class="glyphicon glyphicon-user fabIcon" aria-hidden="true"></span>
@@ -193,6 +206,8 @@
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js" ></script>
     <script type="text/javascript" src="node_modules/bootstrap-material-design/dist/js/material.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvdSbYtHZ_BpzuY7p2PyzqaLemacTDHwU&callback=initMap"async defer></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript">
       $.material.init();
     </script>
