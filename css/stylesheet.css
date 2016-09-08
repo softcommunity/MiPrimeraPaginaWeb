@@ -6,6 +6,10 @@ html,body{
   width: 100%;
 }
 
+div.center_elements{
+  text-align: center;
+}
+
 div.fab{
   position: fixed;
   z-index: 1;
@@ -15,6 +19,14 @@ div.fab{
 
 div.listCircle{
   margin-top: 1%;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-color: #333333;
 }
 
 h4.frameworks_title{
@@ -32,6 +44,14 @@ img.img_idolos{
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+img.social{
+  width: 50px;
+  height: auto;
+  margin-top: 2%;
+  cursor: pointer;
+  margin-bottom: 2%;
 }
 
 #map{
