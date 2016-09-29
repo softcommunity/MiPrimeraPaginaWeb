@@ -6,6 +6,10 @@ html,body{
   width: 100%;
 }
 
+div.bio_container{
+  margin: 8%;
+}
+
 div.center_elements{
   text-align: center;
 }
@@ -39,6 +43,13 @@ h4.idolos_titulo{
   text-align: center;
 }
 
+img.image_bio{
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 img.img_idolos{
   width: 150px;
   height: auto;
@@ -57,6 +68,12 @@ img.social{
 #map{
   height: 50%;
   margin-top: 10%;
+}
+
+p.bio_text{
+  font-size: 1.2em;
+  margin: 2%;
+  text-align: justify;
 }
 
 span.fabIcon{
